@@ -21,7 +21,8 @@
         display:flex;
         align-items:center;
         cursor:pointer;
-        width:170px;
+        gap:16px;
+        padding-left:16px;
       }
     
       .search-button .toolkit,
@@ -55,22 +56,21 @@
       }
       .hamburger{
         height :29px;
-        margin:39px;
+        margin: 16px;
       }
       .hamburger:hover{
         background-color:#ccc;
       }
       .youtube-icon{
         height:29px;
-       padding: 20px 14px 18px 16px;
-        
+       
       }
       .middle-section{
        display:flex;
         flex:1;
         align-items:center;
-        margin-left:70px;
-        margin-right:30px;
+        padding-left:70px;
+        padding-right:30px;
         max-width:650px;
        
         
@@ -176,3 +176,4 @@
   height:35px;
   border-radius:16px;
 }
+
